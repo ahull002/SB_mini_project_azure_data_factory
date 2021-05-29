@@ -31,7 +31,15 @@ To extend their physical presence WWI recently acquired Smart Food, a supermarke
 In this hands-on mini-project, I have built an end-to-end solution for data warehousing using modern data lake methodology.
 
 ## Goal
-The goal here is to demonstrate proficiency in creating and utilizing ELT pipelines utilizing MS AZURE technologies.
+The goal here is to demonstrate proficiency in creating and utilizing ELT pipelines utilizing MS AZURE technologies using the following resources:
+
+> * Deploy Azure Data Factory including an Integration Runtime.
+> * Build Mapping Data Flows in ADF.
+> * Create Blob Storage and Azure SQLDB Linked Services.
+> * Create Azure Key Vault and Linked Services in ADF.
+> * Create an ADF parameterized pipeline.
+> * Install Azure Data Factory self-hosted integration runtime to ingest from on-premises data systems.
+
 
 __Deliverables:__
 > * (Optional) A document with screenshots of each step as performed according to this lab.
