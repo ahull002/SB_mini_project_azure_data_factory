@@ -5,8 +5,8 @@ Image by: Quinten de Graaf
 
 ## Table of contents
 * [What is this?](#what-is-this)
-* [Business problem](business-problem)
-* [Goal](#goal)
+* [Business problem:](#business-problem)
+* [Goal:](#goal)
 
 
 ## What is this?
@@ -23,14 +23,14 @@ This hands-on mini-project is designed to provide exposure to many of Microsoftâ
 > * Azure Key vault
 > * Azure DevOps
 
-## Business problem:
+## Business problem
 Wide World Importers (WWI) imports products then resells them both to retailers and directly to the public. In an increasingly crowded market, they are always looking for ways to differentiate themselves and provide additional value to their customers.They are looking to pilot a data warehouse to provide additional information useful to their internal sales and marketing agents. They want to enable their agents to perform as-is and as-was analysis in order to price the items accurately and predict the product demand throughout the year.
 
 To extend their physical presence WWI recently acquired Smart Food, a supermarket business who provides comprehensive nutritional information to customers so they can make healthy decisions. SmartFoods runs a loyalty program where customers accumulate points on their purchases. WWI CIO is hoping to use the loyalty program information and the food nutrients database of SmartFoods to provide customers with a HealthSmart portal. The portal will be showing aggregated information on customers' important food nutrients (carbs, saturated fats, etc.) to promote healthy shopping.
 
 In this hands-on mini-project, I have built an end-to-end solution for data warehousing using modern data lake methodology.
 
-## Goal:
+## Goal
 The goal here is to demonstrate proficiency in creating and utilizing ELT pipelines utilizing MS AZURE technologies.
 
 __Deliverables:__
