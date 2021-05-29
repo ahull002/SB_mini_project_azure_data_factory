@@ -5,8 +5,8 @@ Image by: Quinten de Graaf
 
 ## Table of contents
 * [What is this?](#what-is-this)
-* [Business problem:](business-problem)
-* [Goal:](#goal)
+* [Business problem](business-problem)
+* [Goal](#goal)
 
 
 ## What is this?
