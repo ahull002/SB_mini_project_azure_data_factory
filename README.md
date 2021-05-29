@@ -1,39 +1,44 @@
-# Azure Mini Project: HDInsight
-![Design Blocks](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80)
-Image by: Maxim Hopman
+# Azure Mini Project: Data Factory
+![Design Blocks](https://images.unsplash.com/photo-1507823690283-48b0929e727b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=800)
+Image by: Quinten de Graaf
 
 
 ## Table of contents
 * [What is this?](#what-is-this)
+* [Business problem:](business-problem)
 * [Goal:](#goal)
 
 
 ## What is this?
-Today, data is being generated and stored in staggering amounts at unprecedented velocities. To make things more complicated, this data is generated in an ever-expanding variety of formats. 
+In this mini-project, I have engineered and deployed an End-to-End Azure Extract Load Transformation (ELT) solution. I have done this using Azure Data Factory (ADF) and Mapping Dataflows to perform ELT process using Azure Blob storage and Azure SQL DB. I have also used Azure DevOps repositories to perform source control over ADF pipelines. Lastly, I have use Azure DevOps pipelines to deploy this project across multiple environments including Dev, Test, and Production.
 
-In order to gain actionable insights into Big Data sources, new tools need to be leveraged that allow the data to be cleaned, analyzed, and visualized quickly and efficiently. Azure
-HDInsight provides one solution to this problem. HDInsight makes it simple to create high-performance computing clusters equipped with Apache Spark and Spark ecosystem tools. This tool allows you to focus your time on the data itself rather than deploying, installing, configuring and maintaining the resources required to analyze the data. 
+This hands-on mini-project is designed to provide exposure to many of Microsoft’s transformative lines of business applications. The goal is to show an end-to-end solution, leveraging many of these technologies, but not necessarily doing work in every component possible. 
 
-Apache Spark is an open-source parallel-processing platform that excels at running large-scale data analytics jobs. Spark’s combined use of in-memory and disk data storage delivers performance improvements that allow it to process some tasks up to 100 times faster than Hadoop. Azure makes deploying Spark clusters relatively simple and allows you to work on your data analysis sooner.
+> __The lab architecture is below and includes:__
 
-In this mini-project, I will use Apache Spark for Azure HDInsight. After provisioning a Spark cluster, I will use the Microsoft Azure Storage Explorer to add a Jupyter Notebook to the cluster. I will then use the notebook to explore and analyze Walmart stock data. 
+> * Azure Data Factory (ADF)
+> * Azure Storage
+> * Azure Data Factory Mapping Dataflows
+> * Azure SQL Database
+> * Azure Key vault
+> * Azure DevOps
+
+## Business problem:
+Wide World Importers (WWI) imports products then resells them both to retailers and directly to the public. In an increasingly crowded market, they are always looking for ways to differentiate themselves and provide additional value to their customers.They are looking to pilot a data warehouse to provide additional information useful to their internal sales and marketing agents. They want to enable their agents to perform as-is and as-was analysis in order to price the items accurately and predict the product demand throughout the year.
+
+To extend their physical presence WWI recently acquired Smart Food, a supermarket business who provides comprehensive nutritional information to customers so they can make healthy decisions. SmartFoods runs a loyalty program where customers accumulate points on their purchases. WWI CIO is hoping to use the loyalty program information and the food nutrients database of SmartFoods to provide customers with a HealthSmart portal. The portal will be showing aggregated information on customers' important food nutrients (carbs, saturated fats, etc.) to promote healthy shopping.
+
+In this hands-on mini-project, I have built an end-to-end solution for data warehousing using modern data lake methodology.
 
 ## Goal:
-The goal here is to experience creating and utilizing Spark clusters, provisioning them with Azure, and getting a working overview to Spark data analytics.
-
-__In this mini-project, I will demonstrate competency in:__
-* Deploying an HDInsight Spark cluster
-* Working with content stored in Azure Blob Storage and accessed by the Spark cluster as an HDFS volume
-* Using a Jupyter Notebook to interactively explore a large dataset
-* Deleting a Spark cluster to avoid incurring unnecessary charges
-
-__Exercises:__
-* Exercise 1: Create a Spark Cluster on HDInsight
-* Exercise 2: Upload Jupyter Notebook to the cluster
-* Exercise 3: Work with Jupyter Notebooks
-* Exercise 4: Remove the HDInsight Spark cluster
+The goal here is to demonstrate proficiency in creating and utilizing ELT pipelines utilizing MS AZURE technologies.
 
 __Deliverables:__
-* 1. Jupyter Notebook with code to achieve stated objective in each cell
-* 2. A PPT/Word-doc with screenshots of each step as performed according to this lab
+> * (Optional) A document with screenshots of each step as performed according to this lab.
+
+> 1. Why should one use Azure Key Vault when working in the Azure environment? What are the pros and cons? What are the alternatives?
+> 2. How do you achieve loop functionality within a Azure Data Factory pipeline? Why would you need to use this functionality in a data pipeline?
+> 3. What are expressions in Azure Data Factory? How are they helpful when designing a data pipeline? Please explain with an example.
+> 4. What are the pros and cons of parametrizing a dataset’s activity in Azure Data Factory?
+> 5. What are the different supported file formats and compression codecs in Azure Data Factory? When will you use a Parquet file over an ORC file? Why would you choose an AVRO file format over a Parquet file format.
 _____
